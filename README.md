@@ -1,1 +1,1 @@
-# interreg
+# Materials for the Interreg workshop
