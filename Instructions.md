@@ -86,7 +86,7 @@ You can be more precise in the bibliographic reference. Inside you need to add f
 
 It is possible to display XML directly in the browser by adding a CSS stylesheet to the XML document.
 
-- Copy the "visualize-tei-xml.css" file that comes with the materials and add it to the same location where you saved your coded sonnet (if you saved it in the same folder as the exercise, the CSS file is already there).
+- Copy the "visualize-tei-xml.css" file that comes with the materials and add it to the same location where you saved your encoded sonnet (if you saved it in the same folder as the exercise, the CSS file is already there).
 - Add at the beginning of the XML document, before the root element `<TEI>`, the following instruction (which tells the XML where to find the CSS). You must have the XML file and the CSS file in the same folder.
 
 `<?xml-stylesheet type="text/css" href="visualize-tei-xml.css"?>`
@@ -99,10 +99,10 @@ It is possible to display XML directly in the browser by adding a CSS stylesheet
 
 Violante or Violente? 'Violente' in the Polish version is a typo, so go for it and encode the correction.
 
-- Search in the TEI Guidelines for a solution looking for 'choice' (`<choice>`, `<sic>`, `<corr>`).
+- Search in the [TEI Guidelines](https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-choice.html) for a solution looking for 'choice' (`<choice>`, `<sic>`, `<corr>`).
 
 The first letter in the original is highlighted. Do we encode it?
 
-- Search in the TEI Guidelines for a solution looking for 'hi' (`<hi>`) and the attribute @rend.
+- Search in the [TEI Guidelines](https://www.tei-c.org/release/doc/tei-p5-doc/de/html/ref-hi.html) for a solution looking for 'hi' (`<hi>`) and the attribute @rend.
 
 * I provided you with a TEI-XML file already encoded “Lope-sonnet-1965-done.xml”. Feel free to have a look inside or ask me for help.
